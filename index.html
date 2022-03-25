@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Главная</title>
+	<meta name="description" content="A menu with a css-only marquee hover effect" />
+	<meta name="keywords" content="marquee, css, animation, loop, infinite, hover, menu, navigation" />
+	<meta name="author" content="Codrops" />
+	<link rel="stylesheet" href="https://use.typekit.net/zhq0vyf.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+	<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+</head>
+<body>
+<div class="conteiner">
+	<div class="header">
+			<nav role='navigation'>
+		        <ul>
+		             <li><a href="index.html">Главная</a></li>
+					 <li><a>Разделы</a>
+						<ul>
+							<li><a href="history.html">История моды</a></li>
+							<li><a href="vogue.html">Легенды моды</a></li>
+							<li><a href="true.html">True story</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Clients</a></li>
+				</ul>
+			</nav>
+	  </div>
+
+
+  
+
+
+
+
+
+		<nav class="menu">
+			<div class="menu__item">
+				<a href="history.html" class="menu__item-link">История моды</a>
+				<img class="menu__item-img" src="img/1.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>История моды</span>
+						<span>История моды</span>
+						<span>История моды</span>
+						<span>История моды</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a href="vogue.html" class="menu__item-link">Легенды моды</a>
+				<img class="menu__item-img" src="img/2.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Легенды моды</span>
+						<span>Легенды моды</span>
+						<span>Легенды моды</span>
+						<span>Легенды моды</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a href="true.html" class="menu__item-link">True story</a>
+				<img class="menu__item-img" src="img/3.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>True story</span>
+						<span>True story</span>
+						<span>True story</span>
+						<span>True story</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</main>
+</div>
+
+
+<div class="header"><nav role='navigation'></nav></div>
+
+ <!-- Site footer -->
+ <footer class="site-footer">
+	<div class="containers">
+	  <div class="row">
+		<div class="col-xs-6 col-md-3">
+		  <h6>Категории</h6>
+		  <ul class="footer-links">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="raz.html">Разделы</a></li>
+			<li><a href="index.html">PHP</a></li>
+		  </ul>
+		</div>
+	  </div>
+	  <hr>
+	</div>
+
+	<div class="containers">
+	  <div class="row">
+		<div class="col-md-8 col-sm-6 col-xs-12">
+		  <p class="copyright-text">&copy; 2022</p>
+		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-12">
+		  <ul class="social-icons">
+			<li><a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+			<li><a class="twitter" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+			<li><a class="dribbble" href="https://www.vk.com/"><i clasatqcs="fa fa-dribbble"></i></a></li>
+			<li><a class="linkedin" href="https://www.instagram.com/"><i class="fa fa-linkedin"></i></a></li>   
+		  </ul>
+		</div>
+	  </div>
+	</div>
+</footer>
+
+	<!--script src="https://tympanus.net/codrops/adpacks/cda.js"></script-->
+</body>
+
+</html>
